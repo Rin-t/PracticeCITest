@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "8864AEFA-5AEF-4697-95DB-F570D0797B43",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SampleCITest.xcodeproj",
+        "identifier" : "24C624B92CE04B7D00F4965B",
+        "name" : "SampleCITestTests"
+      }
+    }
+  ],
+  "version" : 1
+}
