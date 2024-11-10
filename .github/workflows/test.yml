@@ -24,7 +24,6 @@ jobs:
     - name: Build and Test
       run: |
         xcodebuild clean test \
-        -workspace SampleCITest.xcodeproj \
         -scheme SampleCITest \
         -destination 'platform=iOS Simulator,name=iPhone 14,OS=18.0' \
         CODE_SIGNING_ALLOWED=NO
